@@ -1,168 +1,168 @@
 
 SHA:
   _add:
-    SHA_TEXT_0:
+    TEXT_0:
       description: SHA Message block and hash result 0
       size: 32
       addressOffset: 0x0
       resetValue: 0x00000000
-    SHA_TEXT_1:
+    TEXT_1:
       description: SHA Message block and hash result 1
       size: 32
       addressOffset: 0x4
       resetValue: 0x00000000
-    SHA_TEXT_2:
+    TEXT_2:
       description: SHA Message block and hash result 2
       size: 32
       addressOffset: 0x8
       resetValue: 0x00000000
-    SHA_TEXT_3:
+    TEXT_3:
       description: SHA Message block and hash result 3
       size: 32
       addressOffset: 0xc
       resetValue: 0x00000000
-    SHA_TEXT_4:
+    TEXT_4:
       description: SHA Message block and hash result 4
       size: 32
       addressOffset: 0x10
       resetValue: 0x00000000
-    SHA_TEXT_5:
+    TEXT_5:
       description: SHA Message block and hash result 5
       size: 32
       addressOffset: 0x14
       resetValue: 0x00000000
-    SHA_TEXT_6:
+    TEXT_6:
       description: SHA Message block and hash result 6
       size: 32
       addressOffset: 0x18
       resetValue: 0x00000000
-    SHA_TEXT_7:
+    TEXT_7:
       description: SHA Message block and hash result 7
       size: 32
       addressOffset: 0x1c
       resetValue: 0x00000000
-    SHA_TEXT_8:
+    TEXT_8:
       description: SHA Message block and hash result 8
       size: 32
       addressOffset: 0x20
       resetValue: 0x00000000
-    SHA_TEXT_9:
+    TEXT_9:
       description: SHA Message block and hash result 9
       size: 32
       addressOffset: 0x24
       resetValue: 0x00000000
-    SHA_TEXT_10:
+    TEXT_10:
       description: SHA Message block and hash result 10
       size: 32
       addressOffset: 0x28
       resetValue: 0x00000000
-    SHA_TEXT_11:
+    TEXT_11:
       description: SHA Message block and hash result 11
       size: 32
       addressOffset: 0x2c
       resetValue: 0x00000000
-    SHA_TEXT_12:
+    TEXT_12:
       description: SHA Message block and hash result 12
       size: 32
       addressOffset: 0x30
       resetValue: 0x00000000
-    SHA_TEXT_13:
+    TEXT_13:
       description: SHA Message block and hash result 13
       size: 32
       addressOffset: 0x34
       resetValue: 0x00000000
-    SHA_TEXT_14:
+    TEXT_14:
       description: SHA Message block and hash result 14
       size: 32
       addressOffset: 0x38
       resetValue: 0x00000000
-    SHA_TEXT_15:
+    TEXT_15:
       description: SHA Message block and hash result 15
       size: 32
       addressOffset: 0x3c
       resetValue: 0x00000000
-    SHA_TEXT_16:
+    TEXT_16:
       description: SHA Message block and hash result 16
       size: 32
       addressOffset: 0x40
       resetValue: 0x00000000
-    SHA_TEXT_17:
+    TEXT_17:
       description: SHA Message block and hash result 17
       size: 32
       addressOffset: 0x44
       resetValue: 0x00000000
-    SHA_TEXT_18:
+    TEXT_18:
       description: SHA Message block and hash result 18
       size: 32
       addressOffset: 0x48
       resetValue: 0x00000000
-    SHA_TEXT_19:
+    TEXT_19:
       description: SHA Message block and hash result 19
       size: 32
       addressOffset: 0x4c
       resetValue: 0x00000000
-    SHA_TEXT_20:
+    TEXT_20:
       description: SHA Message block and hash result 20
       size: 32
       addressOffset: 0x50
       resetValue: 0x00000000
-    SHA_TEXT_21:
+    TEXT_21:
       description: SHA Message block and hash result 21
       size: 32
       addressOffset: 0x54
       resetValue: 0x00000000
-    SHA_TEXT_22:
+    TEXT_22:
       description: SHA Message block and hash result 22
       size: 32
       addressOffset: 0x58
       resetValue: 0x00000000
-    SHA_TEXT_23:
+    TEXT_23:
       description: SHA Message block and hash result 23
       size: 32
       addressOffset: 0x5c
       resetValue: 0x00000000
-    SHA_TEXT_24:
+    TEXT_24:
       description: SHA Message block and hash result 24
       size: 32
       addressOffset: 0x60
       resetValue: 0x00000000
-    SHA_TEXT_25:
+    TEXT_25:
       description: SHA Message block and hash result 25
       size: 32
       addressOffset: 0x64
       resetValue: 0x00000000
-    SHA_TEXT_26:
+    TEXT_26:
       description: SHA Message block and hash result 26
       size: 32
       addressOffset: 0x68
       resetValue: 0x00000000
-    SHA_TEXT_27:
+    TEXT_27:
       description: SHA Message block and hash result 27
       size: 32
       addressOffset: 0x6c
       resetValue: 0x00000000
-    SHA_TEXT_28:
+    TEXT_28:
       description: SHA Message block and hash result 28
       size: 32
       addressOffset: 0x70
       resetValue: 0x00000000
-    SHA_TEXT_29:
+    TEXT_29:
       description: SHA Message block and hash result 29
       size: 32
       addressOffset: 0x74
       resetValue: 0x00000000
-    SHA_TEXT_30:
+    TEXT_30:
       description: SHA Message block and hash result 30
       size: 32
       addressOffset: 0x78
       resetValue: 0x00000000
-    SHA_TEXT_31:
+    TEXT_31:
       description: SHA Message block and hash result 31
       size: 32
       addressOffset: 0x7c
       resetValue: 0x00000000
     
-    SHA_SHA1_START:
+    SHA1_START:
       description: SHA1 Start
       size: 32
       addressOffset: 0x80
@@ -173,7 +173,7 @@ SHA:
           description: Write 1 to start an SHA-1 operation on the first message block
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA1_CONTINUE:
+    SHA1_CONTINUE:
       description: SHA1 Continue
       size: 32
       addressOffset: 0x84
@@ -184,7 +184,7 @@ SHA:
           description: Write 1 to continue the SHA-1 operation with subsequent blocks
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA1_LOAD:
+    SHA1_LOAD:
       description: SHA1 Load
       size: 32
       addressOffset: 0x88
@@ -195,7 +195,7 @@ SHA:
           description: Write 1 to finish the SHA-1 operation to calculate the final message hash
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA1_BUSY:
+    SHA1_BUSY:
       description: SHA1 Busy
       size: 32
       addressOffset: 0x8c
@@ -207,7 +207,7 @@ SHA:
           bitOffset: 0
           bitWidth: 1
 
-    SHA_SHA256_START:
+    SHA256_START:
       description: SHA256 Start
       size: 32
       addressOffset: 0x90
@@ -218,7 +218,7 @@ SHA:
           description: Write 1 to start an SHA-256 operation on the first message block
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA256_CONTINUE:
+    SHA256_CONTINUE:
       description: SHA256 Continue
       size: 32
       addressOffset: 0x94
@@ -229,7 +229,7 @@ SHA:
           description: Write 1 to continue the SHA-256 operation with subsequent blocks
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA256_LOAD:
+    SHA256_LOAD:
       description: SHA256 Load
       size: 32
       addressOffset: 0x98
@@ -240,7 +240,7 @@ SHA:
           description: Write 1 to finish the SHA-256 operation to calculate the final message hash
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA256_BUSY:
+    SHA256_BUSY:
       description: SHA256 Busy
       size: 32
       addressOffset: 0x9c
@@ -252,7 +252,7 @@ SHA:
           bitOffset: 0
           bitWidth: 1
 
-    SHA_SHA384_START:
+    SHA384_START:
       description: SHA384 Start
       size: 32
       addressOffset: 0xa0
@@ -263,7 +263,7 @@ SHA:
           description: Write 1 to start an SHA-384 operation on the first message block
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA384_CONTINUE:
+    SHA384_CONTINUE:
       description: SHA384 Continue
       size: 32
       addressOffset: 0xa4
@@ -274,7 +274,7 @@ SHA:
           description: Write 1 to continue the SHA-384 operation with subsequent blocks
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA384_LOAD:
+    SHA384_LOAD:
       description: SHA384 Load
       size: 32
       addressOffset: 0xa8
@@ -285,7 +285,7 @@ SHA:
           description: Write 1 to finish the SHA-384 operation to calculate the final message hash
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA384_BUSY:
+    SHA384_BUSY:
       description: SHA384 Busy
       size: 32
       addressOffset: 0xac
@@ -297,7 +297,7 @@ SHA:
           bitOffset: 0
           bitWidth: 1
 
-    SHA_SHA512_START:
+    SHA512_START:
       description: SHA512 Start
       size: 32
       addressOffset: 0xb0
@@ -308,7 +308,7 @@ SHA:
           description: Write 1 to start an SHA-512 operation on the first message block
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA512_CONTINUE:
+    SHA512_CONTINUE:
       description: SHA512 Continue
       size: 32
       addressOffset: 0xb4
@@ -319,7 +319,7 @@ SHA:
           description: Write 1 to continue the SHA-512 operation with subsequent blocks
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA512_LOAD:
+    SHA512_LOAD:
       description: SHA512 Load
       size: 32
       addressOffset: 0xb8
@@ -330,7 +330,7 @@ SHA:
           description: Write 1 to finish the SHA-512 operation to calculate the final message hash
           bitOffset: 0
           bitWidth: 1
-    SHA_SHA512_BUSY:
+    SHA512_BUSY:
       description: SHA512 Busy
       size: 32
       addressOffset: 0xbc
